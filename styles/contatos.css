@@ -1,0 +1,96 @@
+.alinhamento{
+	margin: 0 80px;
+	background-color: yellow;
+}
+
+
+.cabecalho {
+    background-color: rgb(167, 162, 162);
+    
+}
+
+.logo{
+	border: 1px solid red;
+	display: inline-block;
+	width: 209.17px;
+	height: 44.83px;
+}
+
+.menu{
+	display: inline-block;
+
+}
+
+.menu li{
+	display: inline-block;
+	padding: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	color: #0000CD;
+	font-size: 0.8em;
+}
+
+.subcabecalho {
+	background-image: url("../imgs/falecono.jpg");
+	-webkit-text-stroke: 3px black;
+	align-items: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	height: 300px;
+	color: white;
+	font-size: 3rem;
+}
+.capital {
+	width: 38%;
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: center;
+	padding: 5vw 0vw 5vw 0vw;
+	min-width:40vw;
+	border: solid 2px rgba(0, 0, 0, 0.5);
+	border-radius: 10%;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+.interior {
+	width: 38%;
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: center;
+	padding: 5vw 0vw 5vw 0vw;
+	min-width:40vw;
+	border: solid 2px rgba(0, 0, 0, 0.5);
+	border-radius: 10%;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.botao {
+border-radius: 15%;
+width: 150px;
+height: 50px;
+}
+.titulos {
+	text-align: center;
+	font-size: 4rem;
+}
+.subtitulo {
+	text-align: center;
+	font-size: 2rem;
+}
+/*FORMATAÇÃO RODAPÉ*/
+footer{
+	border: 1px solid white;
+	clear: both;
+	height: 200px;
+	background:linear-gradient(#fff,#E0FFFF, #AFEEEE);
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.rodape{
+	margin: 150px;
+	justify-content: center;
+	align-items: center;
+}

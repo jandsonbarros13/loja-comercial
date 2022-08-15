@@ -1,0 +1,95 @@
+.alinhamento{
+	margin: 0 ;
+	background-color: rgb(62, 113, 155);
+}
+
+
+.cabecalho {
+    background-color: rgb(167, 162, 162);
+    
+}
+
+.logo{
+	border: 1px solid red;
+	display: inline-block;
+	width: 209.17px;
+	height: 44.83px;
+}
+
+.menu{
+	display: inline-block;
+
+}
+.titulos {
+	text-align: center;
+	background-image: url("../imgs/imgs/banerCat.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	color: white;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	margin-top: -40px;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	color: #1fd163;
+	font-size: 0.8em;
+}
+
+.img1 {
+	height: 50%;
+	width: 50%;
+}
+.img2 {
+	height: 50%;
+	width: 50%;
+}
+.img3 {
+	height: 50%;
+	width: 50%;
+}
+.catalogo1 .prod{
+	border-radius: 10%;
+	max-width: 30%;
+	max-height: 60%;
+	text-align: center;
+}
+
+.prod{
+	border-radius: 10%;
+	border: solid 2px rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	width: 30%;
+	height: 60%;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 10px;
+
+}
+
+
+.catalogo1 .img {
+	height: 50%;
+	width: 50%;
+}
+/*FORMATAÇÃO RODAPÉ*/
+footer{
+	border: 1px solid white;
+	clear: both;
+	height: 200px;
+	background:linear-gradient(#fff,#E0FFFF, #AFEEEE);
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.rodape{
+	margin: 150px;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,149 @@
+Formatação geral
+*{
+	margin: 0px 0px;	
+}
+
+
+
+body{
+	background-color: #f2f5f7;
+	font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+.imagem-lateral{
+	margin: -10px 0px 0px -10px;
+	width: 450px;
+	height: 1000px;
+	float:left;
+	background-image: url(../imgs/imagem-lateral-04.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cadastro{
+	width: 870px;
+	float: left;
+	text-align: center;
+}
+
+.conteudo-interno{
+	margin: 40px auto;
+	width: 600px;
+}
+
+
+
+.botoes{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.icone-google{
+	vertical-align:text-bottom;
+	margin-right: 8px;
+	width:2.8%;
+}
+
+.icones{
+	vertical-align:text-bottom;
+	margin-right: 8px;
+	width:5.8%;
+}
+
+.button-google{
+	cursor: pointer;
+	color:#0d3878;
+	border-color:#0d3878;
+	font-weight: 700;
+	border: 1px solid blue;
+	width: 100%;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.botao-midia-social-01{
+	cursor: pointer;
+	color:#0d3878;
+	border-color:#0d3878;
+	font-weight: 700;
+	margin: 20px 20px 20px -5px;
+	border: 1px solid blue;
+	width: 280px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.botao-midia-social-02{
+	cursor: pointer;
+	color:#0d3878;
+	border-color:#0d3878;
+	font-weight: 700;
+	margin: 20px -5px 20px 20px;
+	border: 1px solid blue;
+	width: 280px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+
+.nome-sobrenome{
+	width: 99%;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+.input-01{
+	margin: 20px 25px 20px -28px;
+	width: 270px;
+	height: 35px;
+
+}
+
+.input-02{
+	margin: 20px -27px 20px 20px;
+	width: 270px;
+	height: 35px;
+
+}
+
+.checkbox{
+	text-align: left;
+	margin:0px 10px 25px 0px;
+}
+
+.tamanho-checkbox{
+	height: 20px;
+	width: 20px;
+	margin-bottom:10px
+}
+
+
+.cadastre-se{
+	cursor:pointer;
+	font-weight: 600;
+	color:white;
+	background-color: #0d3878;
+	border-color: #0d3878;
+	font-size: 1.0em;
+	width: 70%;
+	border-radius: 20px;
+	height:50px;
+}
+
+/*FORMATAÇÃO RODAPÉ*/
+footer{
+	border: 1px solid white;
+	clear: both;
+	height: 200px;
+	background:linear-gradient(#fff,#E0FFFF, #AFEEEE);
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.rodape{
+	margin: 150px;
+	justify-content: center;
+	align-items: center;
+}
